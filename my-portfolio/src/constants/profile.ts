@@ -3,22 +3,26 @@ export const PROFILE = {
   role: "Full-Stack Developer",
   email:"dilinichamikasilva@gmail.com",
   about: "I am a passionate Full-Stack Developer specializing in building scalable web applications. I bridge the gap between complex backend logic and elegant frontend design.",
-  cvUrl: "/cv.pdf", // Place your file in public folder
-  github: "https://github.com/yourusername",
-  linkedin: "https://www.linkedin.com/in/yourusername/",
-  techSkills: ["React", "TypeScript", "Node.js", "Next.js", "PostgreSQL", "Tailwind CSS", "Docker", "AWS"],
-  softSkills: ["Agile Development", "Problem Solving", "Collaboration", "Mentoring"],
+  cvUrl: "/cv.pdf", 
+  github: "https://github.com/dilinichamikasilva",
+  linkedin: "https://www.linkedin.com/in/dilini-chamika-silva/",
+  techSkills: ["React", "TypeScript", "JavaScript" , "Node.js", "Express", "MYSQL", "Tailwind CSS", "Spring Boot", "Python" , "Mongo DB" , "React Native"],
+  softSkills: ["Leadership", "Problem Solving", "Collaboration", "Communication" , "Time Management"],
   certifications: [
-    { title: "Meta Front-End Developer", issuer: "Coursera", date: "2024" },
-    { title: "AWS Cloud Practitioner", issuer: "Amazon", date: "2023" }
+    { title: "Java ( Basic )", issuer: "HackerRank", date: "2024" },
+    { title: "JavaScript ( Basic )", issuer: "HackerRank", date: "2025" },
+    { title: "Software Engineer Intern", issuer: "HackerRank", date: "2025" },
+    { title: "Software Engineer", issuer: "HackerRank", date: "2025" },
+    { title: "Code Rally 5.0 - Certificate of Participation", issuer: "IIT", date: "2024" },
+    { title: "Code Rally 6.0 - Certificate of Participation", issuer: "IIT", date: "2025" }
   ],
   projects: [
     {
-      title: "Fintech Dashboard",
-      description: "A real-time financial tracking app with complex data visualization.",
-      tech: ["React", "Chart.js", "Node.js"],
-      github: "https://github.com/dilini/project1",
-      videoUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // YouTube Embed Link
+      title: "Ship Fast",
+      description: "Maritime Shipping Service Management System",
+      tech: ["Spring Boot", "Hibernate", "MYSQL"  , "Spring Security" , "JWT" , "HTML" , "CSS" , "JavaScript" , "Bootstrap" , "Swagger" , "SheetJS" , "Spring Mail" , "Apache POI" , "Invoice Generater API" , "Exchange Rate API" , "Cloudinary API"],
+      github: "https://github.com/dilinichamikasilva/Maritime-Shipping-Service-Management-System-ShipFast.git",
+      videoUrl: "https://www.linkedin.com/posts/dilini-chamika-silva_springboot-javadeveloper-backenddevelopment-activity-7379021305272233984-_deB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9LJeQB3GgZ4WiPUDXXPmwMRmH0wgMdZNk" 
     },
     {
       title: "E-Commerce API",
