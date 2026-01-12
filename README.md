@@ -1,4 +1,4 @@
-# 👩‍💻 Modern Developer Portfolio | {PROFILE.name}
+# 👩‍💻 Modern Developer Portfolio | {Dilini Silva}
 
 A sophisticated, high-performance developer portfolio built with **React**, **Tailwind CSS**, and **Framer Motion**. This site features a "Tech Girl" aesthetic with smooth 3D animations, a custom "Coffee-to-Code" About section, and a responsive timeline of my educational journey at IJSE.
 
@@ -23,7 +23,7 @@ A sophisticated, high-performance developer portfolio built with **React**, **Ta
 * **Styling**: Tailwind CSS
 * **Animations**: Framer Motion
 * **Icons**: Lucide React
-* **Deployment**: Vercel / Netlify
+* **Deployment**: Vercel 
 
 ---
 
