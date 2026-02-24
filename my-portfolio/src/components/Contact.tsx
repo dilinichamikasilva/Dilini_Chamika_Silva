@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Mail, Send, MapPin, MessageSquare } from 'lucide-react';
+import { Mail, Send, MapPin } from 'lucide-react';
 import { PROFILE } from '../constants/profile';
 
 export default function Contact() {

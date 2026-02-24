@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Download, Github, Code, Cpu, Heart, Sparkles } from 'lucide-react';
+import { Download, Github, Code, Heart, Sparkles } from 'lucide-react';
 import { PROFILE } from '../constants/profile';
 import { useEffect, useState } from 'react';
 
