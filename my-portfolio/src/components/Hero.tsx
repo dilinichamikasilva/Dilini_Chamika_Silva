@@ -21,7 +21,6 @@ export default function Hero() {
     <section className="relative min-h-[calc(100vh-64px)] flex items-center overflow-hidden px-6">
       <div className="max-w-7xl mx-auto w-full grid lg:grid-cols-2 gap-12 items-center">
         
-        {/* Left Side: Text Content */}
         <motion.div 
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -75,12 +74,9 @@ export default function Hero() {
           </div>
         </motion.div>
 
-        {/* Right Side: Attractive Tech Animation */}
         <div className="relative hidden lg:flex justify-center items-center">
-          {/* Background Glow */}
           <div className="absolute w-[450px] h-[450px] bg-[#d946ef]/10 blur-[120px] rounded-full animate-pulse" />
 
-          {/* Floating Laptop Frame */}
           <motion.div
             animate={{ 
               y: [0, -30, 0],
@@ -103,7 +99,7 @@ export default function Hero() {
                   <p className="text-[#d946ef]">const <span className="text-white">GirlDeveloper</span> = &#123;</p>
                   <p className="text-gray-400 ml-5">name: <span className="text-[#8b5cf6]">"{PROFILE.name}"</span>,</p>
                   <p className="text-gray-400 ml-5">role: <span className="text-[#8b5cf6]">"Full Stack"</span>,</p>
-                  <p className="text-gray-400 ml-5">skills: [<span className="text-[#8b5cf6]">"React", "UI/UX"</span>],</p>
+                  <p className="text-gray-400 ml-5">skills: [<span className="text-[#8b5cf6]">"Java", "React", "Js"...</span>],</p>
                   <p className="text-gray-400 ml-5">coffee: <span className="text-[#8b5cf6]">true</span>,</p>
                   <p className="text-gray-400 ml-5">lovesCoding: <span className="text-[#d946ef]">true</span></p>
                   <p className="text-[#d946ef]">&#125;;</p>

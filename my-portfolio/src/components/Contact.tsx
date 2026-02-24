@@ -11,7 +11,6 @@ export default function Contact() {
       </div>
 
       <div className="grid lg:grid-cols-2 gap-12 items-start">
-        {/* Left Side: Info Card */}
         <motion.div 
           initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -49,13 +48,11 @@ export default function Contact() {
           </div>
         </motion.div>
 
-        {/* Right Side: Form */}
         <motion.div 
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
         >
-          {/* Replace 'your-form-id' with your actual Formspree ID to make it work! */}
           <form 
             action="https://formspree.io/f/your-form-id" 
             method="POST"
