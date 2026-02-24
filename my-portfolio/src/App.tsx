@@ -6,7 +6,7 @@ import Achievements from './components/Achievements';
 import Footer from './components/Footer';
 
 import { PROFILE } from './constants/profile';
-import Contact from './components/Contect';
+import Contact from './components/Contact';
 
 import { Coffee, Sparkles, Zap , Code } from 'lucide-react';
 
