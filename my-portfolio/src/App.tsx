@@ -1,6 +1,7 @@
 
 import { motion } from 'framer-motion';
 import { Coffee, Zap, Code } from 'lucide-react';
+import diliniProfile from './assets/dilini_2.png';
 
 // Components
 import Navbar from './components/Navbar';
@@ -43,7 +44,7 @@ export default function App() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#d946ef] to-[#8b5cf6] rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                 <div className="relative w-48 h-48 bg-[#050505] rounded-2xl overflow-hidden border border-white/10">
                   <img 
-                    src="src/assets/dilini_2.png" 
+                    src={diliniProfile} 
                     alt={PROFILE.name}
                     className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110"
                   />

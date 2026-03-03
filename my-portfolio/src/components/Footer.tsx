@@ -1,5 +1,6 @@
 import { PROFILE } from '../constants/profile';
 import { Mail, Github, Linkedin, MapPin, ArrowUp } from 'lucide-react';
+import diliniImg from '../assets/dilini_1.png';
 
 export default function Footer() {
   const scrollToTop = () => {
@@ -18,7 +19,7 @@ export default function Footer() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-[#8b5cf6] to-[#d946ef] rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
                 
                 <img 
-                  src="src/assets/dilini_1.png"
+                  src={diliniImg}
                   alt={PROFILE.name} 
                   className="relative w-24 h-24 rounded-2xl border-2 border-[#d946ef]/50 object-cover shadow-2xl"
                 />
