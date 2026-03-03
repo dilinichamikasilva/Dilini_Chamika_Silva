@@ -3,7 +3,7 @@ export const PROFILE = {
   role: "Full-Stack Developer",
   email:"dilinichamikasilva@gmail.com",
   about: "I am a passionate Full-Stack Developer specializing in building scalable web applications. I bridge the gap between complex backend logic and elegant frontend design.",
-  cvUrl: "/cv.pdf", 
+  cvUrl: "/Dilini_Chamika_Silva_CV.pdf", 
   github: "https://github.com/dilinichamikasilva",
   linkedin: "https://www.linkedin.com/in/dilini-chamika-silva/",
   techSkills: ["Java" , "Spring Boot", "React",  "JavaScript" , "TypeScript", "Node.js", "Express", "MYSQL", "Tailwind CSS",  "Python" , "Mongo DB" , "React Native" , "Git" , "GitHub" , "Docker"],
