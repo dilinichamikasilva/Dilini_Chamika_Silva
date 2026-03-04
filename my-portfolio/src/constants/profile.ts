@@ -1,20 +1,28 @@
+import javaBasic from "../assets/java_basic.png"
+import jsBasic from "../assets/js_basic.png"
+import seIntern from "../assets/se_intern.png"
+import se from "../assets/se.png"
+import codeRally5 from "../assets/DiliniSilva5.png"
+import codeRally6 from "../assets/DiliniSilva6.jpg"
+
+
 export const PROFILE = {
   name: "Dilini Chamika Silva",
   role: "Full-Stack Developer",
   email:"dilinichamikasilva@gmail.com",
   about: "I am a passionate Full-Stack Developer specializing in building scalable web applications. I bridge the gap between complex backend logic and elegant frontend design.",
-  cvUrl: "/Dilini_Chamika_Silva_CV.pdf", 
+  cvUrl: "/Dilini_Silva.pdf", 
   github: "https://github.com/dilinichamikasilva",
   linkedin: "https://www.linkedin.com/in/dilini-chamika-silva/",
   techSkills: ["Java" , "Spring Boot", "React",  "JavaScript" , "TypeScript", "Node.js", "Express", "MYSQL", "Tailwind CSS",  "Python" , "Mongo DB" , "React Native" , "Git" , "GitHub" , "Docker"],
   softSkills: ["Leadership", "Problem Solving", "Collaboration", "Communication" , "Time Management"],
   certifications: [
-    { title: "Java ( Basic )", issuer: "HackerRank", date: "2024" },
-    { title: "JavaScript ( Basic )", issuer: "HackerRank", date: "2025" },
-    { title: "Software Engineer Intern", issuer: "HackerRank", date: "2025" },
-    { title: "Software Engineer", issuer: "HackerRank", date: "2025" },
-    { title: "Code Rally 5.0 - Certificate of Participation", issuer: "IIT", date: "2024" },
-    { title: "Code Rally 6.0 - Certificate of Participation", issuer: "IIT", date: "2025" }
+    { title: "Java ( Basic )", issuer: "HackerRank", date: "2024", imageUrl: javaBasic },
+    { title: "JavaScript ( Basic )", issuer: "HackerRank", date: "2025", imageUrl: jsBasic },
+    { title: "Software Engineer Intern", issuer: "HackerRank", date: "2025", imageUrl: seIntern },
+    { title: "Software Engineer", issuer: "HackerRank", date: "2025", imageUrl: se },
+    { title: "Code Rally 5.0 - Certificate of Participation", issuer: "IIT", date: "2024", imageUrl: codeRally5 },
+    { title: "Code Rally 6.0 - Certificate of Participation", issuer: "IIT", date: "2025", imageUrl: codeRally6 }
   ],
   leadership: [
     {
