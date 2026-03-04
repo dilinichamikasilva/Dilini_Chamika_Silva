@@ -136,78 +136,85 @@ export default function App() {
         <DocumentSection />
 
         {/* Leadership - Responsive Cards */}
-        <section id="leadership" className="scroll-mt-24">
-          <div className="flex items-center gap-4 mb-10 md:mb-12">
-            <div className="p-3 bg-[#d946ef]/10 rounded-2xl">
-              <Users className="text-[#d946ef]" size={28} />
-            </div>
-            <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-white">Leadership & Community</h2>
-              <p className="text-gray-400 text-sm">Empowering the tech student community at IJSE</p>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
-            {/* Treasurer Card */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="bg-white/5 border border-white/10 rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-8 relative overflow-hidden flex flex-col justify-between md:min-h-[550px]"
-            >
-              <div> 
-                <div className="flex justify-between items-start mb-6">
-                  <div className="text-left">
-                    <span className="text-[#8b5cf6] text-[10px] font-bold uppercase tracking-widest bg-[#8b5cf6]/10 px-3 py-1 rounded-full">
-                      2026 - PRESENT
-                    </span>
-                    <h3 className="text-xl md:text-2xl font-bold text-white mt-3">Treasurer</h3>
-                    <p className="text-[#d946ef] font-medium text-xs md:text-sm">IJSE Student Committee</p>
-                  </div>
-                  <ShieldCheck className="text-white/20" size={32} />
-                </div>
-
-                <p className="text-gray-400 mb-8 text-sm leading-relaxed italic md:h-[5rem] text-left">
-                  "Managing committee finances, budgeting for major tech events, and ensuring financial transparency. Leading team collaborations for student welfare and event planning."
-                </p>
+          <section id="leadership" className="scroll-mt-24">
+            <div className="flex items-center gap-4 mb-10 md:mb-12">
+              <div className="p-3 bg-[#d946ef]/10 rounded-2xl">
+                <Users className="text-[#d946ef]" size={28} />
               </div>
-
-              <div className="aspect-video rounded-xl md:rounded-2xl overflow-hidden border border-white/10 shadow-2xl mt-auto">
-                <img src={treasurerImg} alt="Treasurer" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-700" />
-              </div>
-            </motion.div>
-
-            {/* Vice Treasurer Card */}
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="bg-white/5 border border-white/10 rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-8 relative overflow-hidden flex flex-col justify-between md:min-h-[550px] mt-4 md:mt-0"
-            >
               <div>
-                <div className="flex justify-between items-start mb-6">
-                  <div className="text-left">
-                    <span className="text-gray-500 text-[10px] font-bold uppercase tracking-widest bg-white/5 px-3 py-1 rounded-full">
-                      2025 - 2026
-                    </span>
-                    <h3 className="text-xl md:text-2xl font-bold text-white mt-3">Vice Treasurer</h3>
-                    <p className="text-[#8b5cf6] font-medium text-xs md:text-sm">IJSE Student Committee</p>
+                <h2 className="text-2xl md:text-3xl font-bold text-white">Leadership & Community</h2>
+                <p className="text-gray-400 text-sm">Empowering the tech student community at IJSE</p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-stretch">
+              {/* Treasurer Card */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="group bg-white/5 border border-white/10 rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-8 relative overflow-hidden flex flex-col justify-between md:min-h-[550px]"
+              >
+                <div> 
+                  <div className="flex justify-between items-start mb-6">
+                    <div className="text-left">
+                      <span className="text-[#8b5cf6] text-[10px] font-bold uppercase tracking-widest bg-[#8b5cf6]/10 px-3 py-1 rounded-full">
+                        2026 - PRESENT
+                      </span>
+                      <h3 className="text-xl md:text-2xl font-bold text-white mt-3">Treasurer</h3>
+                      <p className="text-[#d946ef] font-medium text-xs md:text-sm">IJSE Student Committee</p>
+                    </div>
+                    <ShieldCheck className="text-white/20" size={32} />
                   </div>
-                  <ShieldCheck className="text-white/20" size={32} />
+
+                  <p className="text-gray-400 mb-8 text-sm leading-relaxed italic md:h-[5rem] text-left">
+                    "Managing committee finances, budgeting for major tech events, and ensuring financial transparency. Leading team collaborations for student welfare and event planning."
+                  </p>
                 </div>
 
-                <p className="text-gray-400 mb-8 text-sm leading-relaxed italic md:h-[5rem] text-left">
-                  "Assisted in financial record-keeping and coordinated with sub-committees for funding approvals and event logistics."
-                </p>
-              </div>
+                <div className="aspect-video rounded-xl md:rounded-2xl overflow-hidden border border-white/10 shadow-2xl mt-auto bg-black/20">
+                  <img 
+                    src={treasurerImg} 
+                    alt="Treasurer" 
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105" 
+                  />
+                </div>
+              </motion.div>
 
-              <div className="aspect-video rounded-xl md:rounded-2xl overflow-hidden border border-white/10 shadow-2xl mt-auto">
-                <img src={viceTreasurerImg} alt="Vice Treasurer" className="w-full h-full object-contain grayscale hover:grayscale-0 transition-all duration-700" />
-              </div>
-            </motion.div>
-          </div>
-        </section>
+              {/* Vice Treasurer Card */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="group bg-white/5 border border-white/10 rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-8 relative overflow-hidden flex flex-col justify-between md:min-h-[550px] mt-4 md:mt-0"
+              >
+                <div>
+                  <div className="flex justify-between items-start mb-6">
+                    <div className="text-left">
+                      <span className="text-gray-500 text-[10px] font-bold uppercase tracking-widest bg-white/5 px-3 py-1 rounded-full">
+                        2025 - 2026
+                      </span>
+                      <h3 className="text-xl md:text-2xl font-bold text-white mt-3">Vice Treasurer</h3>
+                      <p className="text-[#8b5cf6] font-medium text-xs md:text-sm">IJSE Student Committee</p>
+                    </div>
+                    <ShieldCheck className="text-white/20" size={32} />
+                  </div>
 
+                  <p className="text-gray-400 mb-8 text-sm leading-relaxed italic md:h-[5rem] text-left">
+                    "Assisted in financial record-keeping and coordinated with sub-committees for funding approvals and event logistics."
+                  </p>
+                </div>
+
+                <div className="aspect-video rounded-xl md:rounded-2xl overflow-hidden border border-white/10 shadow-2xl mt-auto bg-black/20">
+                  <img 
+                    src={viceTreasurerImg} 
+                    alt="Vice Treasurer" 
+                    className="w-full h-full object-contain transition-transform duration-700 group-hover:scale-105" 
+                  />
+                </div>
+              </motion.div>
+            </div>
+          </section>
         <Achievements />
         <Contact />
       </main>
