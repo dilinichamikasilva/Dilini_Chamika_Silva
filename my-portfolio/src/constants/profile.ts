@@ -63,7 +63,7 @@ export const PROFILE = {
       description: "Real-time Travel Journaling & Social Discovery Platform ",
       tech: ["React Native", "Expo", "Firebase (Auth/Firestore)", "TypeScript", "NativeWind", "Cloudinary API"],
       github: "https://github.com/dilinichamikasilva/TerraDiary.git",
-      videoUrl: "" 
+      videoUrl: "https://www.linkedin.com/posts/dilini-chamika-silva_ar-augmentedreality-googlemaps-activity-7435673542706413568-FRZt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE9LJeQB3GgZ4WiPUDXXPmwMRmH0wgMdZNk" 
     },
     {
       title: "Complaint Management System",
